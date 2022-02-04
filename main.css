@@ -1,0 +1,152 @@
+.subhead {
+  font-family: Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.subhead.bold {
+  font-family: Rubik;
+  font-weight: 500;
+}
+
+.head {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.head.bold {
+  font-weight: 700;
+}
+
+body {
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body .bold {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+}
+body .text-small {
+  font-size: 14px;
+  line-height: 20px;
+}
+body .text-small.bold {
+  font-family: Helvetica;
+  font-weight: 700;
+}
+
+form {
+  height: 710px;
+  width: 418px;
+  position: absolute;
+  top: calc(50% - 355px);
+  left: calc(50% - 209px);
+  background: #FFF;
+  border: 1px solid #DFE2E4;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+form.log-in {
+  height: 571px;
+  width: 418px;
+  top: calc(50% - 285px);
+}
+form h3, form h4 {
+  margin: 0;
+}
+form .container-logo {
+  height: 81px;
+  width: 418px;
+  left: 511px;
+  top: 147px;
+  background: rgba(233, 242, 255, 0.5);
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+form .container-logo .logo {
+  padding: 16px 48px 8px 43px;
+  height: 56px;
+}
+form .container-logo .logo span {
+  display: inline;
+}
+form .container-logo .logo .logo-first-part {
+  color: #000;
+  vertical-align: -webkit-baseline-middle;
+  font-weight: bold;
+}
+form .container-logo .logo .logo-second-part {
+  color: #3884F2;
+  vertical-align: -webkit-baseline-middle;
+  font-weight: bold;
+}
+form .container {
+  padding: 38px 48px 46px 43px;
+}
+form .container span {
+  margin-top: 19px;
+}
+form .container input {
+  margin-top: 4px;
+  height: 48px;
+  width: 327px;
+  left: 0px;
+  top: 24px;
+  padding: 12px;
+  background: #FFF;
+  border: 1px solid #BFC4CA;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+form .container input[type=checkbox] {
+  height: 24px;
+  width: 24px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
+  background: #3884F2;
+  border-radius: 4px;
+  margin: 0px;
+  float: left;
+}
+form .container input label {
+  float: left;
+}
+form .container button {
+  border-color: #3884F2;
+  margin-top: 35px;
+  width: 327px;
+  height: 48px;
+  background: #3884F2;
+  border-radius: 4px;
+  color: #FFF;
+}
+form .container a {
+  margin-top: 53px;
+  display: block;
+  width: 200px;
+  height: 24px;
+  position: relative;
+  left: calc(50% - 100px);
+  text-align: center;
+}
+form span, form input, form button {
+  display: block;
+}
+
+/*# sourceMappingURL=main.css.map */

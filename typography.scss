@@ -1,0 +1,55 @@
+.subhead {
+    //styleName: Heading-3/regular;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    &.bold {
+        //styleName: Heading-3/bold;
+        font-family: Rubik;
+        font-weight: 500;
+    }
+}
+.head {
+    //styleName: Heading-4/regular;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    &.bold {
+        //styleName: Heading-4/bold;
+        font-weight: 700;
+    }
+}
+body {
+    //styleName: Body/regular;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    .bold {
+        //styleName: Body/bold;
+        font-family: Helvetica;
+        font-size: 16px;
+        font-weight: 700;      
+    }
+    .text-small {
+        //styleName: Body--small/regular;
+        font-size: 14px;
+        line-height: 20px;
+        &.bold {
+            //styleName: Body--small/bold;
+            font-family: Helvetica;
+            font-weight: 700;
+        }
+    }
+}
